@@ -493,7 +493,7 @@ def hash_vectors(tf_idf_matrix, vocabulary, N=8000):
     hashed_data = []
   
     # Iterate over the matrix rows
-    for row_index in range(row_count-1):
+    for row_index in range(row_count):
       
       # Get the current row indices
       row = tf_idf_matrix.getrow(row_index)
